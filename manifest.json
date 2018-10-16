@@ -1,0 +1,21 @@
+{
+  "vendor": "webimpacto",
+  "name": "webimpacto-store",
+  "version": "0.1.0",
+  "title": "",
+  "description": "",
+  "defaultLocale": "pt-BR",
+  "builders": {
+    "pages": "0.x",
+    "react": "2.x"
+  },
+  "mustUpdateAt": "2019-10-16",
+  "categories": [],
+  "registries": [
+    "smartcheckout"
+  ],
+  "settingsSchema": {},
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  }
+}
